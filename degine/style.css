@@ -260,13 +260,100 @@ padding: 40px;
   margin-top: 20px;
   width: 40%;
 }
+/*....................BMI....................................................*/
+.BMIsection{
+ margin-top: 60px;
+  color: white;
 
-/*........................ media quare for small device..................................*/
+}
+.BMI-des{
+  width: 40%;
+  margin: 0 auto;
+}
+.chart{
+  font-size: 1.6rem;
+font-weight: 900;
+margin-bottom: 40px;
+}
+.table{
+ width: 60%;
+
+  height: 60%;
+
+}
+.para2{
+  margin-bottom: 20px;
+}
+.td{
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.5);
+
+font-size: 0.8rem;
+font-weight: 400;
+}
+.th{
+  font-size: 1rem;
+font-weight: 500;
+}
+
+
+.bmi-form-container{
+  margin-top: 50px;
+ padding: 40px;
+ background: rgb(34, 34, 34);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ 
+}
+ .input{
+  width: 40%;
+  padding: 10px;
+margin: 5px;
+
+border: none;
+border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+
+ 
+ }
+ .input::placeholder{
+  color: rgba(255, 255, 255, 0.6);
+ }
+ .input2{
+  border: none;
+  width: 42.5%;
+  padding: 10px;
+margin: 5px;
+border-radius: 8px;
+color: rgba(255, 255, 255, 0.6);
+background: rgba(255, 255, 255, 0.1);
+
+ }
+ .input3{
+  border: none;
+  border-radius: 10px;
+  width: 87%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+ }
+ .btn2{
+  margin-top: 20px;
+  width: 30%;
+ }
+ .option{
+  color:black ;
+ }
+
+/*........................ responsive for small device..................................*/
 @media screen and (max-width:570px) {
   .body{
     margin: 0 auto;
     max-width: 100%;
-    border: 2px solid red;
+  
    }
    .nav-item{
     display: none;
@@ -274,7 +361,7 @@ padding: 40px;
    .nav-hamburger{
     display: block;
    padding: 10px;
-   border: 2px solid red;
+  
     
   }
   .banner-container{
@@ -323,7 +410,7 @@ font-size: 1rem;
 }
 .habit-container{
   margin-left: 2px;
-  border: 2px solid blue;
+ 
 }
 .habit-description{
   width: 100%;
@@ -362,6 +449,37 @@ font-size: 1rem;
   padding-left: 2px;
 }
 .btn-deco{
+  width: 100%;
+}
+.bmi-form-container {
+  grid-template-columns: repeat(1,1fr);
+}
+.input{
+  margin: 1px;
+
+}
+.btn2{
+  width: 60%;
+}
+.BMI-des {
+  width: 100%;
+
+}
+.habit-head{
+padding-left: 15px;
+}
+.chart{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+.bmi-form-container {
+  padding: 15px;
+}
+.para2{
+  padding-left: 5px;
+}
+.table{
   width: 100%;
 }
   
