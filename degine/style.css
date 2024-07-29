@@ -181,11 +181,25 @@ padding: 10px;
     font-size: 1rem;
 font-weight: 400;
 }
-/*.................habit section ........................*/
+/*................................habit section .....................................*/
 .habit-container{
 max-width: 100%;
 margin: 0 auto;
 margin-left: 50px;
+}
+.habit-head{
+  font-size: 3rem;
+font-weight: 900;
+}
+.habit-paragraph{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 0.8rem;
+font-weight: 400;
+margin-top: 14px;
+}
+.h5{
+  font-size: 1.2rem;
+font-weight: 600;
 }
 .habit-description{
   width: 50%;
@@ -226,6 +240,7 @@ padding: 40px;
    .nav-hamburger{
     display: block;
    padding: 10px;
+   border: 2px solid red;
     
   }
   .banner-container{
@@ -234,18 +249,18 @@ padding: 40px;
    max-width:100% ;
   padding: 15px;
   
-  
   }
   .banner-description{
     width: 100%;
   }
-.banner-title{
+.banner-title {
   font-size: 2.5rem;
  
 }
 .dancing-script-font{
   font-size: 2.5rem;
 }
+
 .banner-subtitle{
 font-size: 1rem;
 }
@@ -285,13 +300,22 @@ font-size: 1rem;
 .habits-items{
   grid-template-columns: repeat(1, 1fr);
 }
+.habit-head{
+  font-size: 2rem;
+  padding: 5px;
+}
+.habit-paragraph{
+ padding-left: 20px;
+ padding-right: 20px;
+}
 .img{
  
   width: 100%;
   margin-bottom: 10px;
 }
 .img-des{
-  padding-left: 60px;
+  padding-left: 80px;
+
 }
   
 }
