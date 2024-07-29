@@ -226,6 +226,40 @@ font-weight: 600;
 .img-des{
 padding: 40px;
 }
+/*........................run section start.......................................*/
+.run{
+  margin-top: 50px;
+ 
+}
+.run-container{
+  display: flex;
+  max-width:85% ;
+  margin: 0 auto;
+  gap: 100px;
+
+ padding: 40px;
+ border-radius: 18px;
+
+ background: rgb(34, 34, 34);
+
+}
+.run-des{
+  max-width: 50% ;
+ 
+ 
+}
+.run-img{
+ max-width: 40%;
+
+}
+.run-img img{
+  border-radius: 20px;
+  width:100% ;
+}
+.btn-deco{
+  margin-top: 20px;
+  width: 40%;
+}
 
 /*........................ media quare for small device..................................*/
 @media screen and (max-width:570px) {
@@ -316,6 +350,19 @@ font-size: 1rem;
 .img-des{
   padding-left: 80px;
 
+}
+.run-container{
+  flex-direction: column;
+  gap: 30px;
+}
+.run-des , .run-img{
+  max-width: 100%;
+}
+.run-pera{
+  padding-left: 2px;
+}
+.btn-deco{
+  width: 100%;
 }
   
 }
