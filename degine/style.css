@@ -349,7 +349,7 @@ background: rgba(255, 255, 255, 0.1);
  }
  /*.....................program fitness....................*/
 .program{
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 50px;
  
@@ -358,7 +358,7 @@ background: rgba(255, 255, 255, 0.1);
   border-radius: 18px;
   background: rgb(34, 34, 34);
  margin: 10px;
- box-shadow: 2px 5px 5px 0 rgba(245, 245, 245, 0.692);
+ box-shadow: 2px 5px 5px 1px rgba(245, 245, 245, 0.692);
  opacity: 0.9;
  
 }
@@ -388,6 +388,51 @@ background: rgba(255, 255, 255, 0.1);
 .btn3{
   margin-top: 20px;
 }
+/*......................trainer section start.........................*/
+.team{
+  margin-top: 90px;
+ 
+}
+.trainer-img-container{
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.1);
+ 
+
+}
+.img{
+  max-width: 350px;
+  min-height: 350px;
+  padding: 10px;
+
+  border-radius: 20px;
+}
+
+.team-container{
+
+  max-width: 85% ;
+  margin: 0 auto;
+ 
+}
+.team-des{
+  text-align: center;
+}
+.img-term{
+  position: relative;
+}
+.name{
+  position: absolute;
+
+  top: 290px;
+  left: 50px;
+}
+
+
+
 
 /*........................ responsive for small device..................................*/
 @media screen and (max-width:570px) {
@@ -403,7 +448,6 @@ background: rgba(255, 255, 255, 0.1);
     display: block;
    padding: 10px;
   
-    
   }
   .banner-container{
    flex-direction: column;
@@ -458,6 +502,7 @@ font-size: 1rem;
 }
 .banner{
   margin-bottom: 5px;
+
 }
 .habits-items{
   grid-template-columns: repeat(1, 1fr);
@@ -545,6 +590,14 @@ padding-left: 15px;
  margin-left: 20px;
 } 
 .habit-paragraph{
-  padding: none;
-}
+  padding: none;}
+  .trainer-img-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+  
+  .img{
+    width: 92%;
+   
+  }
+
 }
