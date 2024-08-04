@@ -652,5 +652,11 @@ padding-left: 15px;
     width: 92%;
    
   }
+  .footer-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .para{
+    text-align: left;
+  }
 
 }
